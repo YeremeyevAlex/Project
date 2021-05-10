@@ -1,0 +1,25 @@
+<div class="fixed-top">
+  <div class="collapse" id="navbarToggleExternalContent">
+    <div class="bg-dark p-3">
+      <ul class="list bckg d-flex justify-content-around">
+        <li><a style="text-decoration: none;" class="active" routerLink="/account">Account</a></li>
+        <li><a style="text-decoration: none;" routerLink="/support">Support</a></li>
+        <li><a style="text-decoration: none;" routerLink="/test-drive">Test Drive</a></li>
+        <li><a style="text-decoration: none;" routerLink="/contact-us">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+  <nav class="navbar navbar-dark bg-dark">
+    <a routerLink="" (click)="logo()"><img src="assets/img/vixon.png" height="30" width="170" alt="Vixon" /></a>
+    <ul class="nav list">
+      <li><a style="text-decoration: none;" class="p-2 active" href="#kangaroo">Model 1</a></li>
+      <li><a style="text-decoration: none;" class="p-2" href="#blade">Model 2</a></li>
+      <li><a style="text-decoration: none;" class="p-2" href="#lincoln">Model 3</a></li>
+      <li><a style="text-decoration: none;" class="p-2" href="#conqueror">Model 4</a></li>
+    </ul>
+    <button class="bg-transparent hamburger" data-toggle="collapse" data-target="#navbarToggleExternalContent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+</div>
+<router-outlet></router-outlet>

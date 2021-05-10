@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=GFS+Neohellenic&family=Gidugu&family=Miltonian+Tattoo&family=Revalia&display=swap');
+header {
+    background: #f0f5f5;
+    height: 100%;
+}
+#block_one h1 {
+    font: 2.5em 'Miltonian Tattoo', cursive;
+    padding-top: 10%;
+}
+#block_one img {
+    width: 75%;
+    height: 70vh;
+    margin-top: 5%;
+}
+#block_one .small {
+    font: 1.35em 'Gidugu', sans-serif;
+}
+#block_one .big {
+    text-align: justify;
+    font: 1.7em 'GFS Neohellenic', sans-serif;
+    padding-top: 2%;
+}
+#block_two h1 {
+    font: 2em 'Revalia', cursive;
+    padding-top: 4%;
+}
+#block_two .big {
+    text-align: justify;
+    font: 1.5em 'GFS Neohellenic', sans-serif;
+    padding-top: 2%;
+}
+#block_two img {
+    width: 75%;
+    height: 70vh;
+    margin-top: 3%;
+}
+#block_two .small {
+    font: 1.4em 'Gidugu', sans-serif;
+}
+#block_three h1 {
+    font: 2em 'Revalia', cursive;
+    padding-top: 4%;
+}
+#block_three p {
+    text-align: justify;
+    font: 1.5em 'GFS Neohellenic', sans-serif;
+    padding: 2% 0 5% 0;
+}
+
+@media (max-width: 767.98px) {
+    #block_one h1 {
+        padding-top: 25%;
+        text-align: center;
+    }
+    #block_one img {
+        width: 100%;
+        height: 35vh;
+        margin-top: 10%;
+    }
+    #block_one .small {
+        font: 1.5em 'Gidugu', sans-serif;
+        text-align: justify;
+    }
+    #block_one .big {
+        padding-top: 5%;
+    }
+    #block_two h1 {
+        padding-top: 10%;
+        text-align: center;
+    }
+    #block_two img {
+        width: 100%;
+        height: 35vh;
+    }
+    #block_two .small {
+        font: 1.5em 'Gidugu', sans-serif;
+    }
+    #block_three h1 {
+        padding-top: 10%;
+        text-align: center;
+    }
+}
+
+@media (min-width: 280px) and (max-width: 320px) {
+    #block_one h1 {
+        padding-top: 30%;
+        text-align: center;
+    }
+    #block_one img {
+        height: 30vh;
+    }
+    #block_one .big {
+        padding-top: 10%;
+    }
+    #block_two img {
+        height: 30vh;
+    }
+}

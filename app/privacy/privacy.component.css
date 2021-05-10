@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Langar&family=Merriweather&family=Sirin+Stencil&family=Trade+Winds&display=swap');
+header {
+    height: 100%;
+    background: #f0f5f5;
+}
+#block_one {
+    padding: 7.5% 0 0 15%;
+    width: 65%;
+    text-align: justify;
+}
+#block_one h1 {
+    font: 2em 'Calistoga', cursive;
+    color: #4d4d4d;
+}
+#block_one h2 {
+    font: 1.5em 'Trade Winds', cursive;
+    color: #666;
+    padding-top: 5%;
+}
+#block_one p {
+    font: 1.2em 'Sirin Stencil', cursive;
+    color: #000;
+    padding-top: 3%;
+}
+#block_two, #block_three, #block_four, #block_five, #block_six {
+    margin: 5% 0 0 15%;
+    width: 50%;
+}
+#block_two h1, #block_three h1, #block_four h1, #block_five h1, #block_six h1 {
+    font: 1.4em 'Langar', cursive;
+    color: #000033;
+}
+#block_two .accordion, #block_three .accordion, #block_four .accordion, #block_five .accordion, #block_six .accordion {
+    margin-top: 2%;
+}
+#block_two .first_text, #block_two .second_text, #block_three .first_text, #block_three .second_text, #block_four .first_text, #block_four .second_text, #block_five .first_text, #block_six .first_text {
+    font: 1.1em 'Merriweather', serif;
+    color: #404040;
+    text-align: justify;
+}
+#block_two ul li, #block_three ul li, #block_four ul li {
+    font: 1em 'Merriweather', serif;
+    color: #404040;
+}
+#block_two .card-body ul li a, #block_three .card-body ul li a, #block_four .card-body ul li a, #block_five .card-body ul li a {
+    font: 0.9em Tahoma;
+    text-decoration: underline;
+    line-height: 1.7;
+    color: #262626;
+    cursor: pointer;
+}
+#block_two .card-body ul li a:hover, #block_three .card-body ul li a:hover, #block_four .card-body ul li a:hover, #block_five .card-body ul li a:hover {
+    color: cadetblue;
+}
+#block_two .card-body .ti, #block_three .card-body .ti, #block_four .card-body .ti, #block_five .card-body .ti {
+    padding-left: 20px;
+    font: 1.2em Verdana;
+}
+#block_two .card-body p, #block_three .card-body p, #block_four .card-body p, #block_five .card-body p {
+    font: 1em Trebuchet MS;
+    text-align: justify;
+}
+#block_six ul li {
+    font: 0.85em Tahoma;
+    color: #262626;
+}
+#block_six {
+    padding-bottom: 5%;
+}
+
+@media (max-width: 767.98px) {
+    #block_one {
+        padding: 25% 0 0 5%;
+        width: 95%;
+        text-align: justify;
+    }
+    #block_two, #block_three, #block_four, #block_five, #block_six {
+        margin: 5% 0 0 5%;
+        width: 90%;
+    }
+    @media (min-width: 280px) and (max-width: 320px) { 
+        #block_one {
+            padding: 30% 0 0 5%;
+            width: 95%;
+            text-align: justify;
+        }
+    }
+}

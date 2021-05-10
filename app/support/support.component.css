@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bree+Serif&family=Ubuntu+Mono&display=swap');
+header {
+    background: #f0f5f5;
+    height: 120vh;
+}
+.first {
+    float: left;
+    margin: 7% 0 0 0;
+    width: 40%;
+    text-align: right;
+}
+.first h1 {
+    font: 1.5em 'Bree Serif', serif;
+    color: #000;
+}
+.first p {
+    font: 1.1em 'Ubuntu Mono', monospace;
+    color: #595959;
+    padding: 3% 0;
+}
+.first ul li a {
+    font: 1em 'Audiowide', cursive;
+    color: #333;
+    text-decoration: underline;
+    line-height: 1.7;
+    cursor: pointer;
+}
+.first ul li a:hover {
+    color: darkseagreen;
+}
+.second {
+    float: right;
+    margin: 0 10% 0 0;
+}
+.third img {
+    width: 35%;
+}
+.third {
+    float: left;
+    margin: 5% 0 0 8%;
+}
+.fourth {
+    float: right;
+    width: 40%;
+    margin: -17.5% 16% 0 0;
+}
+.fourth h1 {
+    font: 1.5em 'Bree Serif', serif;
+    color: #000;
+}
+.fourth p {
+    font: 1.1em 'Ubuntu Mono', monospace;
+    color: #595959;
+    padding: 3% 0;
+}
+.fourth ul li a {
+    font: 1em 'Audiowide', cursive;
+    color: #333;
+    text-decoration: underline;
+    line-height: 1.7;
+    cursor: pointer;
+}
+.fourth ul li a:hover {
+    color: darkseagreen;
+}
+
+@media (max-width: 767.98px) { 
+    header {
+        background: #f0f5f5;
+        height: 160vh;
+    }
+    .first {
+        float: none;
+        padding: 20% 0 0 0;
+        width: 95%;
+        text-align: center;
+    }
+    .second {
+        float: none;
+        margin: 5% 0 0 9%;
+    }
+    .second img {
+        width: 90%;
+    }
+    .third {
+        float: none;
+        margin: 73% 0 0 9%;
+    }
+    .third img {
+        width: 90%;
+    }
+    .fourth {
+        float: none;
+        width: 100%;
+        margin: -108% 0% 0 0;
+        text-align: center;
+    }
+}
+@media (min-width: 280px) and (max-width: 320px) {
+    header {
+        height: 180vh;
+    }
+    .first {
+        float: none;
+        padding: 40% 0 0 0;
+        width: 100%;
+        text-align: center;
+    }
+    .third {
+        float: none;
+        margin: 87% 0 0 9%;
+    }
+    .fourth {
+        float: none;
+        width: 100%;
+        margin: -127% 0% 0 0;
+        text-align: center;
+    }
+}
+@media (min-width: 280px) and (max-width: 320px) {
+    .first {
+        padding: 25% 0 0 0;
+    }
+}

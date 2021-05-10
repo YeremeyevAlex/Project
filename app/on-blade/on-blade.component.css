@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Della+Respira&family=Lemonada:wght@500&family=Sofia&family=Special+Elite&display=swap');
+header {
+    background: #f0f5f5;
+    height: 100vh;
+    display: flex;
+}
+.car img {
+    width: 95%;
+    height: 100vh;
+}
+.account {
+    margin-right: 3%;
+}
+.account h1 {
+    padding: 25% 0 0 30%;
+    color: #333;
+    font: 2.5em 'Alice', serif;
+}
+.account .id {
+    padding: 10% 0 0 7%;
+    color: #52527a;
+    font: 1.5em 'Special Elite', cursive;
+}
+.account .in1 {
+    margin-top: 1%;
+    border-radius: 20px;
+    outline: none;
+    border: 3px solid #ccc;
+    transition: 0.5s;
+    background-color: #ccc;
+    font-size: 1.7em;
+}
+.account .in1:focus {
+  border: 3px solid #555;
+}
+.account .pass1 {
+    padding: 7% 0 0 7%;
+    color: #52527a;
+    font: 1.5em 'Special Elite', cursive;
+}
+.account .in2 {
+    margin-top: 1%;
+    border-radius: 20px;
+    outline: none;
+    border: 3px solid #ccc;
+    transition: 0.5s;
+    background-color: #ccc;
+    font-size: 1.7em;
+}
+.account .in2:focus {
+  border: 3px solid #555;
+}
+.account .btn-dark {
+    margin-top: 10%;
+    border-radius: 20px;
+    width: 350px;
+    font-family: 'Alice', serif;
+    color: white;
+}
+.account .email {
+    padding: 2% 0 0 15%;
+    color: #666699;
+    font-family: 'Della Respira', serif;
+    cursor: pointer;
+}
+.account p {
+    padding: 2% 0 0 10%;
+}
+.account .pass2 {
+    padding: 2% 0 0 12%;
+    color: #666699;
+    font-family: 'Della Respira', serif;
+    cursor: pointer;
+}
+.account h3 {
+    padding: 7% 0 0 43%;
+    font: bold 1em 'Sofia', cursive;
+}
+.account .btn-outline-dark {
+    margin-top: 5%;
+    border-radius: 20px;
+    width: 350px;
+    font-family: 'Lemonada', cursive;
+}
+
+@media (max-width: 767.98px) {
+    header {
+        display: block;
+        height: 100%;
+    }
+    .car img {
+        width: 100%;
+        height: 40vh;
+    }
+    .account {
+        margin-right: 0;
+    }
+    .account h1 {
+        padding: 15% 0 0 30%;
+    }
+    .account .id {
+        padding: 10% 0 0 15%;
+    }
+    .account .in1 {
+        margin-left: 8%;
+        font-size: 1.5em;
+    }
+    .account .pass1 {
+          padding: 10% 0 0 15%;
+    }
+    .account .in2 {
+        margin-left: 8%;
+        font-size: 1.5em;
+    }
+    .account .btn-dark {
+        margin-left: 15%;
+        width: 250px;
+    }
+    .account .email {
+        padding: 2% 0 0 20%;
+        font-size: 15px;
+    }
+    .account p {
+        padding: 2% 0 0 5%;
+    }
+    .account .pass2 {
+        padding: 2% 0 0 5%;
+        font-size: 15px;
+    }
+    .account .btn-outline-dark {
+        margin: 5% 0 10% 15%;
+        width: 250px;
+    }
+}
+@media (min-width: 280px) and (max-width: 320px) {
+    .car img {
+        height: 40vh;
+    }
+    .account .in1 {
+        font-size: 1.1em;
+    }
+    .account .in2 {
+        font-size: 1.1em;
+    }
+    .account .btn-dark {
+        margin-left: 5%;
+        width: 250px;
+    }
+    .account .email {
+        padding: 2% 0 0 12.5%;
+        font-size: 15px;
+    }
+    .account .btn-outline-dark {
+        margin: 5% 0 10% 5%;
+        width: 250px;
+    }
+}

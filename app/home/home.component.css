@@ -1,0 +1,363 @@
+header {
+	background: url('../../assets/img/home_page.jpg') center/cover;
+	height: 100vh;
+}
+#banner {
+	position: relative;
+	width: 450px;
+	height: 250px;
+}
+#banner p { 
+	position: absolute;
+	color: #ff471a;
+	font: 2.7em 'Faster One';
+}
+.p1 {
+	top: 65%;
+	left: -80%;
+	animation: text1 1.5s ease 2s forwards;
+}
+.p2 {
+	top: 95%;
+	left: -70%;
+	animation: text2 1.5s ease 3s forwards;
+}
+.p3 {
+	top: 125%;
+	left: -80%;
+	animation: text3 1.5s ease 4s forwards;
+}
+.p4 {
+	top: 155%;
+	left: -140%;
+	animation: text4 1.5s ease 5s forwards;
+}
+@keyframes text1 {
+	from { left: -80%; }
+	to { left: 26%; }
+}
+@keyframes text2 {
+	from { left: -60%; }
+	to { left: 27.5%; }
+}
+@keyframes text3 {
+	from { left: -80%; }
+	to { left: 21%; }
+}
+@keyframes text4 {
+	from { left: -140%; }
+	to { left: 5%; }
+}
+
+
+#kangaroo {
+	background: url('../../assets/img/car1.jpg') center/cover;
+	height: 100vh;
+	position: relative;
+}
+.buttons {
+	position: absolute;
+	bottom: 12%;	
+}
+#kangaroo h1, #blade h1, #lincoln h1, #conqueror h1 {
+	position: absolute;
+	top: 10%;
+	right: 5%;
+	color: #e6e600;
+	font: italic bold 2.5rem 'Sancreek';
+	text-shadow: 3px 4px 5px #33ffff;
+}
+#kangaroo p, #blade p, #lincoln p, #conqueror p {
+	position: absolute;
+	top: 20%;
+	right: 5%;
+	color: #404040;
+	font: italic bold 1.2rem 'Sancreek';
+	text-shadow: 3px 4px 5px #404040;
+}
+.btn a {
+	color: #fff;
+	font: 1.5rem 'Kaushan Script';
+}
+.btn:hover {
+	background: #f2f2f2;
+}
+.btn a:hover {
+	color: #000;
+}
+
+
+#blade {
+	background: url('../../assets/img/car2.jpg') center/cover;
+	height: 100vh;
+	position: relative;
+}
+
+#lincoln {
+	background: url('../../assets/img/car3.jpg') center/cover;
+	height: 100vh;
+	position: relative;
+}
+
+#conqueror {
+	background: url('../../assets/img/car4.jpg') center/cover;
+	height: 100vh;
+	position: relative;
+}
+
+
+#era {
+	display: flex;
+	position: relative;
+}
+#era_one {
+	background: url('../../assets/img/era1.jpg') center/cover;
+	height: 50vh;
+	width: 50%;
+}
+#era_two {
+	background: url('../../assets/img/era2.jpg') center/cover;
+	height: 50vh;
+	width: 50%;
+}
+.future {
+	position: absolute;
+	right: 51%;
+	top: 10%;
+	color: yellow;
+	font: italic 2rem 'Black Ops One';
+	text-shadow: 3px 4px 5px #000;
+}
+.models {
+	position: absolute;
+	left: 51%;
+	top: 10%;
+	color: yellow;
+	font: italic 2rem 'Black Ops One';
+	text-shadow: 3px 4px 5px #000;
+}
+.era1 {
+	position: absolute;
+	left: 8%;
+	top: 20%;
+	color: #66ccff;
+	font: 2rem 'Faster One';
+}
+.era2 {
+	position: absolute;
+	right: 8%;
+	top: 20%;
+	color: #66ccff;
+	font: 2rem 'Faster One';
+}
+#era_one img {
+	position: absolute;
+	left: 9%;
+	top: 30%;
+	height: 150px;
+	width: 400px;
+	transform: rotate(-15deg);
+}
+#era_two img {
+	position: absolute;
+	right: 12%;
+	top: 35%;
+	height: 150px;
+	width: 400px;
+	transform: rotate(10deg);
+}
+
+
+footer {
+	background: #0d0d0d;
+	height: 50vh;
+}
+.logo1 {
+	height: 60px;
+	width: 240px;
+	top: 10%;
+}
+.logo2 {
+	height: 150px;
+	width: 150px;
+	top: 32.5%;
+}
+footer ul {
+	display: flex; 
+	justify-content: space-between;
+	bottom: 5%;
+}
+footer a {
+	color: #ffffb3;
+	font: 1.2rem 'Vast Shadow';
+}
+footer a:hover {
+	color: inherit;
+}
+
+@media (max-width: 767.98px) {
+    header { 
+		height: 40vh;
+		background: url('../../assets/img/home_page.jpg') center/cover no-repeat;
+    }
+    #banner {
+		position: relative;
+		width: 350px;
+		height: 250px;
+	}
+	#banner p { 
+		position: absolute;
+		color: #ff471a;
+		font: 1.5em 'Faster One';
+	}
+	.p1 {
+		top: 35%;
+		left: -70%;
+		animation: text1 1.5s ease 2s forwards;
+	}
+	.p2 {
+		top: 50%;
+		left: -70%;
+		animation: text2 1.5s ease 3s forwards;
+	}
+	.p3 {
+		top: 65%;
+		left: -70%;
+		animation: text3 1.5s ease 4s forwards;
+	}
+	.p4 {
+		top: 80%;
+		left: -100%;
+		animation: text4 1.5s ease 5s forwards;
+	}
+	@keyframes text1 {
+		from { left: -80%; }
+		to { left: 22%; }
+	}
+	@keyframes text2 {
+		from { left: -60%; }
+		to { left: 22.5%; }
+	}
+	@keyframes text3 {
+		from { left: -60%; }
+		to { left: 17%; }
+	}
+	@keyframes text4 {
+		from { left: -100%; }
+		to { left: 5%; }
+    }
+    
+    #kangaroo { 
+		height: 40vh;
+		background: url('../../assets/img/car1.jpg') center/cover no-repeat;
+	}
+	#kangaroo h1, #blade h1, #lincoln h1, #conqueror h1 {
+		font: italic bold 1.5rem 'Sancreek';
+		top: 85%;
+	}
+	#kangaroo p, #blade p, #lincoln p, #conqueror p {
+		top: 30%;
+		left: 5%;
+		color: #ffffcc;
+		font: italic bold 1rem 'Sancreek';
+		text-shadow: 3px 4px 5px #000;
+	}
+	.btn a {
+		font: 1rem 'Kaushan Script';
+	}
+
+	
+	#blade { 
+		height: 40vh;
+		background: url('../../assets/img/car2.jpg') center/cover no-repeat;
+	}
+	#lincoln { 
+		height: 40vh;
+		background: url('../../assets/img/car3.jpg') center/cover no-repeat;
+	}
+	#conqueror { 
+		height: 40vh;
+		background: url('../../assets/img/car4.jpg') center/cover no-repeat;
+	}
+
+
+	#era {
+		display: block;
+	}
+	#era_one {
+		background: url('../../assets/img/era1.jpg') center/cover;
+		height: 40vh;
+		width: 100%;
+	}
+	#era_two {
+		background: url('../../assets/img/era2.jpg') center/cover;
+		height: 40vh;
+		width: 100%;
+	}
+	.future {
+		top: 5%;
+		left: 12%;
+	}
+	.models {
+		top: 55%;
+		left: 12%;
+	}
+	.era1 {
+		left: 55%;
+		top: 40%;
+	}
+	.era2 {
+		left: 55%;
+		top: 90%;
+	}
+	#era_one img {
+		left: 9%;
+		top: 12%;
+		height: 150px;
+		width: 300px;
+		transform: rotate(-15deg);
+	}
+	#era_two img {
+		left: 9%;
+		top: 67%;
+		height: 100px;
+		width: 300px;
+		transform: rotate(-20deg);
+	}
+
+
+	footer {
+		height: 90vh;
+	}
+	.logo1 {
+		height: 70px;
+		width: 280px;
+	}
+	.logo2 {
+		height: 220px;
+		width: 220px;
+		top: 26%;
+	}
+	footer ul {
+		display: block;
+		bottom: 10%;
+	}
+	footer a {
+		font: 1rem 'Vast Shadow';
+	}
+}
+@media (min-width: 280px) and (max-width: 320px) {
+	.era2 {
+		left: 52.5%;
+	}
+	#era_one img {
+		width: 220px;
+	}
+	#era_two img {
+		width: 220px;
+	}
+	.logo1 {
+		height: 70px;
+		width: 250px;
+	}
+}

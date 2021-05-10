@@ -1,0 +1,10 @@
+header {
+    background: url('/assets/img/error1.jpg') center/cover;
+    height: 100vh;
+}
+
+@media (max-width: 767.98px) { 
+    header {
+        background: url('/assets/img/error2.jpg') center/cover;
+    }
+}

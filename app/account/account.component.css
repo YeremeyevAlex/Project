@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Della+Respira&family=Lemonada:wght@500&family=Sofia&family=Special+Elite&display=swap');
+header {
+    background: #f0f5f5;
+    height: 100vh;
+}
+.account h1 {
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    color: #000;
+    font: 2.5em 'Alice', serif;
+}
+.account .id {
+    position: absolute;
+    top: 28%;
+    left: 42%;
+    color: #52527a;
+    font: 1.5em 'Special Elite', cursive;
+}
+.account .in1 {
+    position: absolute;
+    top: 33%;
+    left: 40%;
+    border-radius: 20px;
+    outline: none;
+    border: 3px solid #ccc;
+    transition: 0.5s;
+    background-color: #ccc;
+    font-size: 1.7em;
+}
+.account .in1:focus {
+  border: 3px solid #555;
+}
+.account .pass1 {
+    position: absolute;
+    top: 45%;
+    left: 42%;
+    color: #52527a;
+    font: 1.5em 'Special Elite', cursive;
+}
+.account .in2 {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    border-radius: 20px;
+    outline: none;
+    border: 3px solid #ccc;
+    transition: 0.5s;
+    background-color: #ccc;
+    font-size: 1.7em;
+}
+.account .in2:focus {
+  border: 3px solid #555;
+}
+.account .btn-success {
+    position: absolute;
+    top: 62%;
+    left: 40%;
+    border-radius: 20px;
+    width: 350px;
+    font-family: 'Alice', serif;
+}
+.account .email {
+    position: absolute;
+    top: 70%;
+    left: 43%;
+    color: #666699;
+    font-family: 'Della Respira', serif;
+    cursor: pointer;
+}
+.account p {
+    position: absolute;
+    top: 70%;
+    left: 52%;
+}
+.account .pass2 {
+    position: absolute;
+    top: 70%;
+    left: 54%;
+    color: #666699;
+    font-family: 'Della Respira', serif;
+    cursor: pointer;
+}
+.account h3 {
+    position: absolute;
+    top: 78%;
+    left: 52%;
+    font: bold 1em 'Sofia', cursive;
+}
+.account .btn-outline-dark {
+    position: absolute;
+    top: 86%;
+    left: 40%;
+    border-radius: 20px;
+    width: 350px;
+    font-family: 'Lemonada', cursive;
+}
+
+@media (max-width: 767.98px) {
+    .account h1 {
+        left: 20%;  
+    }
+    .account .id {
+        left: 30%;
+    }
+    .account .in1 {
+        left: 20%;
+        font-size: 1.1em;
+    }
+    .account .pass1 {
+        left: 30%;
+        top: 43%;   
+    }
+    .account .in2 {
+        left: 20%;
+        font-size: 1.1em;
+        top: 48%;
+    }
+    .account .btn-success {
+        left: 20%;
+        width: 225px;
+    }
+    .account .email {
+        left: 22%;
+        font-size: 15px;
+    }
+    .account p {
+        left: 47.7%;
+    }
+    .account .pass2 {
+        left: 50%;
+        font-size: 15px;
+    }
+    .account h3 {
+        left: 45%;
+    }
+    .account .btn-outline-dark {
+        left: 20%;
+        width: 225px;
+    }
+}
+@media (min-width: 280px) and (max-width: 320px) {
+    .account .in1 {
+        font-size: 1em;
+    }
+    .account .in2 {
+        font-size: 1em;
+    }
+    .account .btn-success {
+        width: 205px;
+    }
+    .account .btn-outline-dark {
+        width: 205px;
+    }
+}

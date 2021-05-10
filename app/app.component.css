@@ -1,0 +1,24 @@
+.hamburger {
+	border: none;
+}
+.list {
+	font: 2rem 'Texturina';
+	cursor: pointer;
+}
+.fixed-top ul li a {
+	color:  #80ffe5;
+}
+
+@media (max-width: 767.98px) {
+	nav img {
+		margin: auto;
+	}
+	.list {
+		font: 0.95rem 'Texturina';
+	}
+}
+@media (min-width: 280px) and (max-width: 320px) {
+	.list {
+		font: 0.6rem 'Texturina';
+	}
+}

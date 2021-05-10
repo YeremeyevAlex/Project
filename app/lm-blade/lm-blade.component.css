@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=GFS+Neohellenic&family=Gidugu&family=Miltonian+Tattoo&family=Revalia&display=swap');
+header {
+    background: #f0f5f5;
+    height: 100%;
+}
+#block_one h1 {
+    padding-top: 10%;
+    font: 2.5em 'Miltonian Tattoo', cursive;
+}
+#block_one img {
+    width: 30%;
+    height: 30vh;
+}
+#block_one .left {
+    float: left;
+    margin: 0 3% 1% 0;
+}
+#block_one p {
+    padding-top: 5%;
+    text-align: justify;
+    font: 1.7em 'GFS Neohellenic', sans-serif;
+}
+#block_two h1 {
+    padding-top: 5%;
+    font: 2.5em 'Miltonian Tattoo', cursive;
+}
+#block_two img {
+    width: 30%;
+    height: 30vh;
+}
+#block_two .left {
+    float: left;
+    margin: 0 3% 1% 0;
+}
+#block_two p {
+    padding-top: 5%;
+    text-align: justify;
+    font: 1.7em 'GFS Neohellenic', sans-serif;
+}
+#block_three h1 {
+    padding-top: 5%;
+    font: 2.5em 'Miltonian Tattoo', cursive;
+}
+#block_three img {
+    width: 30%;
+    height: 30vh;
+}
+#block_three .left {
+    float: left;
+    margin: 0 3% 1% 0;
+}
+#block_three p {
+    padding-top: 5%;
+    text-align: justify;
+    font: 1.7em 'GFS Neohellenic', sans-serif;
+}
+
+@media (max-width: 767.98px) {
+    #block_one h1 {
+        padding-top: 25%;
+        text-align: center;
+    }
+    #block_one img {
+        width: 100%;
+        height: 35vh;
+    }
+    #block_two h1 {
+        padding-top: 10%;
+        text-align: center;
+    }
+    #block_two img {
+        width: 100%;
+        height: 35vh;
+    }
+    #block_three h1 {
+        padding-top: 10%;
+        text-align: center;
+    }
+    #block_three img {
+        width: 100%;
+        height: 35vh;
+    }
+}
+
+@media (min-width: 280px) and (max-width: 320px) {
+    #block_one h1 {
+        padding-top: 30%;
+        text-align: center;
+    }
+    #block_one img {
+        height: 25vh;
+    }
+    #block_two img {
+        height: 25vh;
+    }
+    #block_three img {
+        height: 25vh;
+    }
+}

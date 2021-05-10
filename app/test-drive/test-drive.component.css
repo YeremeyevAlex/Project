@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Germania+One&family=Nunito:ital@1&family=Text+Me+One&display=swap');
+header {
+    background: #f0f5f5;
+    min-height: 210vh;
+}
+.drive h1 {
+    position: absolute;
+    top: 17.5%;
+    left: 27.5%;
+    font: 3em 'Germania One', cursive;
+    color: #000;
+}
+.drive .p1 {
+    position: absolute;
+    top: 28%;
+    left: 15%;
+    font: 1.2em 'Text Me One', sans-serif;
+    width: 70%;
+    text-align: center;
+    color: #737373;
+}
+.drive .p2 {
+    position: absolute;
+    top: 38%;
+    left: 35%;
+    font: 1.2em 'Text Me One', sans-serif;
+    color: #737373;
+}
+.drive .block {
+    position: absolute;
+    top: 50%;
+    left: 34%;
+    display: flex;
+}
+.drive .block h2 {
+    font: bold 1.2em 'Baloo Bhai 2', cursive;
+}
+.drive .block .ln {
+    padding-left: 140px;
+}
+.drive .block2 {
+    position: absolute;
+    top: 56%;
+    left: 32%;
+    display: block;
+}
+.drive .block2 .last_input {
+    margin-left: 25px;
+}
+.drive .block2 input {
+    border-radius: 20px;
+    outline: none;
+    border: 3px solid #ccc;
+    transition: 0.5s;
+    background-color: #ccc;
+    font-size: 1em;
+    height: 2.5em;
+}
+.drive .block2 input:focus {
+    border: 3px solid #555;
+}
+.drive .cp {
+    position: absolute;
+    top: 65%;
+    left: 34%;
+    font: bold 1.2em 'Baloo Bhai 2', cursive;
+}
+.drive #sel1 {
+    position: absolute;
+    top: 71%;
+    left: 32%;
+    border-radius: 20px;
+    outline: none;
+    border: 3px solid #ccc;
+    transition: 0.5s;
+    background-color: #ccc;
+    font-size: 1em;
+    width: 430px;
+    height: 40px;
+    font: bold 1.2em 'Baloo Bhai 2', cursive;
+}
+.drive #sel1:focus {
+  border: 3px solid #555;
+}
+.drive .pn {
+    position: absolute;
+    top: 81%;
+    left: 34%;
+    font: bold 1.2em 'Baloo Bhai 2', cursive;
+}
+.drive .in1 {
+    position: absolute;
+    top: 87%;
+    left: 32%;
+    border-radius: 20px;
+    outline: none;
+    border: 3px solid #ccc;
+    transition: 0.5s;
+    background-color: #ccc;
+    font-size: 1em;
+    width: 430px;
+    height: 40px;
+    font: bold 1.2em 'Baloo Bhai 2', cursive;
+}
+.drive .in1:focus {
+    border: 3px solid #555;
+}
+.drive .ea {
+    position: absolute;
+    top: 97%;
+    left: 34%;
+    font: bold 1.2em 'Baloo Bhai 2', cursive;
+}
+.drive .in2 {
+    position: absolute;
+    top: 103%;
+    left: 32%;
+    border-radius: 20px;
+    outline: none;
+    border: 3px solid #ccc;
+    transition: 0.5s;
+    background-color: #ccc;
+    font-size: 1em;
+    width: 430px;
+    height: 40px;
+    font: bold 1.2em 'Baloo Bhai 2', cursive;
+}
+.drive .in2:focus {
+    border: 3px solid #555;
+}
+.drive .rg {
+    position: absolute;
+    top: 113%;
+    left: 34%;
+    font: bold 1.2em 'Baloo Bhai 2', cursive;
+}
+.drive #sel2 {
+    position: absolute;
+    top: 119%;
+    left: 32%;
+    border-radius: 20px;
+    outline: none;
+    border: 3px solid #ccc;
+    transition: 0.5s;
+    background-color: #ccc;
+    font-size: 1em;
+    width: 430px;
+    height: 40px;
+    font: bold 1.2em 'Baloo Bhai 2', cursive;
+}
+.drive .zc {
+    position: absolute;
+    top: 129%;
+    left: 34%;
+    font: bold 1.2em 'Baloo Bhai 2', cursive;
+}
+.drive .in3 {
+    position: absolute;
+    top: 135%;
+    left: 32%;
+    border-radius: 20px;
+    outline: none;
+    border: 3px solid #ccc;
+    transition: 0.5s;
+    background-color: #ccc;
+    font-size: 1em;
+    width: 430px;
+    height: 40px;
+    font: bold 1.2em 'Baloo Bhai 2', cursive;
+}
+.drive .in3:focus {
+    border: 3px solid #555;
+}
+.drive .block3 {
+    position: absolute;
+    top: 146%;
+    left: 34%;
+}
+.drive .block3 .in4 {
+    cursor: pointer;
+    border: 3px solid #ccc;
+    width: 30px;
+    height: 30px;
+}
+.drive .block3 .gvu {
+    font: bold 1.2em 'Baloo Bhai 2', cursive;
+}
+.drive .btn-info {
+    position: absolute;
+    top: 156%;
+    left: 40%;
+    font: bold 1.2em 'Baloo Bhai 2', cursive;
+    border-radius: 20px;
+}
+.drive .agree {
+    position: absolute;
+    top: 170%;
+    left: 32%;
+    width: 35%;
+    font: 0.9em 'Nunito', sans-serif;
+    line-height: 1.5;
+}
+
+@media (max-width: 767.98px) {
+    .drive h1 {
+        position: absolute;
+        left: 0%;
+        font: 2em 'Germania One', cursive;
+        text-align: center;
+    }
+    .drive .p1 {
+        position: absolute;
+        top: 30%;
+        left: 2%;
+        width: 95%;
+        text-align: center;
+    }
+    .drive .p2 {
+        position: absolute;
+        top: 45%;
+        left: 0%;
+        text-align: center;
+    }
+    .drive .block {
+        left: 20%;
+        display: block;
+    }
+    .drive .block .fn {
+        margin-top: 55%;
+    }
+    .drive .block .ln {
+        padding-left: 0;
+        padding-top: 65%;
+    }
+    .drive .block2 {
+        left: 15%;
+        display: block;
+    }
+    .drive .block2 .first_input {
+        margin-top: 15%;
+        width: 250px;
+    }
+    .drive .block2 .last_input {
+        margin-left: 0;
+        margin-top: 15%;
+        width: 250px;
+    }
+    .drive .cp {
+        position: absolute;
+        top: 85%;
+        left: 20%;
+    }
+    .drive #sel1 { 
+        top: 90%;
+        left: 15%;
+        width: 250px;
+    }
+    .drive .pn {
+        position: absolute;
+        top: 99%;
+        left: 20%;
+    }
+    .drive .in1 {
+        top: 104%;
+        left: 15%;
+        width: 250px;
+    }
+    .drive .ea {
+        position: absolute;
+        top: 113%;
+        left: 20%;
+    }
+    .drive .in2 {
+        top: 118%;
+        left: 15%;
+        width: 250px;
+    }
+    .drive .rg {
+        position: absolute;
+        top: 127%;
+        left: 20%;
+    }
+    .drive #sel2 {
+        top: 132%;
+        left: 15%;
+        width: 250px;
+    }
+    .drive .zc {
+        position: absolute;
+        top: 141%;
+        left: 20%;
+    }
+    .drive .in3 {
+        top: 146%;
+        left: 15%;
+        width: 250px;
+    }
+    .drive .block3 {
+        position: absolute;
+        top: 156%;
+        left: 20%;
+    }
+    .drive .btn-info {
+        top: 166%;
+        left: 20%;
+    }
+    .drive .agree {
+        position: absolute;
+        top: 180%;
+        left: 3%;
+        width: 95%;
+        line-height: 1.3;
+    }
+}
+@media (min-width: 280px) and (max-width: 320px) {
+    .drive .block2 .first_input {
+        margin-top: 17%;
+        width: 200px;
+    }
+    .drive .block2 .last_input {
+        margin-top: 19%;
+        width: 200px;
+    }
+    .drive .cp {
+        top: 90%;
+    }
+    .drive #sel1 { 
+        top: 95%;
+        width: 200px;
+    }
+    .drive .pn {
+        top: 104%;
+    }
+    .drive .in1 {
+        top: 109%;
+        width: 200px;
+    }
+    .drive .ea {
+        top: 118%;
+    }
+    .drive .in2 {
+        top: 123%;
+        width: 200px;
+    }
+    .drive .rg {
+        top: 132%;
+    }
+    .drive #sel2 {
+        top: 137%;
+        width: 200px;
+    }
+    .drive .zc {
+        top: 146%;
+    }
+    .drive .in3 {
+        top: 151%;
+        width: 200px;
+    }
+    .drive .block3 {
+        top: 161%;
+        left: 17%;
+    }
+    .drive .btn-info {
+        top: 169%;
+        font-size: 1em;
+        left: 17%;
+    }
+}
